@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font-family: 'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kite+One&display=swap');
+/* font-family: 'Kite One', sans-serif; */
+
+p{
+    font-family: 'Kite One', sans-serif; 
+}
+
+#pageOne{
+    min-height: 100vh;
+    /* padding-top: 80px; */
+    display: grid;
+    grid-template-columns: 0.7fr 1fr;
+    font-family: 'Fredoka One', cursive;
+}
+
+#pageOne .pic1{
+    padding-top: 80px;
+}
+
+#pageOne .about-text{
+    padding-top: 80px;
+}
+
+@media (max-width: 720px) {
+    #pageOne{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.1fr;
+    }
+}

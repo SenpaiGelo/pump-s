@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font-family: 'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kite+One&display=swap');
+/* font-family: 'Kite One', sans-serif; */
+
+nav{
+    font-family: 'Fredoka One', cursive;
+}
+
+nav ul{
+    font-family: 'Kite One', sans-serif;
+}
+
+.navbar-brand{
+    margin-top: 10px;
+    padding-left: 5px;
+    line-height: 50px;
+}
+
+.navbar-brand a{
+    line-height: 50px;
+}
+
+.navbar-brand img{
+    margin-bottom: 10px;
+}

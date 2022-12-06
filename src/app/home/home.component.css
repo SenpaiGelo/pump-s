@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/* font-family: 'Fredoka One', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kite+One&display=swap');
+/* font-family: 'Kite One', sans-serif; */
+
+#pageOne button:hover , #pageThree button:hover{
+    box-shadow: 0px 0px 10px #38b6ff ;
+}
+
+#pageOne{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#pageOne h1{
+    font-family: 'Fredoka One', cursive; 
+}
+
+#pageOne p{
+    font-family: 'Kite One', sans-serif; 
+}
+
+#pageOne button{
+    width: 200px;
+    height: 40px;
+    background-color: #38b6ff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Fredoka One', cursive; 
+}
+
+#pageOne .pageOne-pic1{
+    background-image: url("../../assets/images/home/home-pic1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pageTwo{
+    padding-top: 80px;
+    min-height: 100vh;
+}
+
+#pageTwo h1{
+    font-family: 'Fredoka One', cursive; 
+}
+
+#pageThree{
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pageThree-pic2{
+    background-color: #7dd4ff;
+}
+
+#pageThree h1 , h5{
+    font-family: 'Fredoka One', cursive; 
+}
+
+#pageThree p{
+    font-family: 'Kite One', sans-serif; 
+}
+
+#pageThree button{
+    width: 200px;
+    height: 40px;
+    background-color: #38b6ff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Fredoka One', cursive; 
+}
+
+@media (max-width: 720px) {
+    #pageOne{
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.8fr 1fr;
+    }
+
+    #pageThree{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 0.8fr;
+    }
+}
